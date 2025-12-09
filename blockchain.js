@@ -14,7 +14,7 @@ const RPC_URL = process.env.RPC_URL;
 const PRIVATE_KEY = process.env.PRIVATE_KEY;
 const CONTRACT_ADDRESS = process.env.CONTRACT_ADDRESS;
 
-const ABI_PATH = join(__dirname, "Abi", "abi.json");
+const ABI_PATH = join(__dirname, "abi", "abi.json");
 
 if (!RPC_URL) {
   throw new Error("RPC_URL is not defined in .env file");
