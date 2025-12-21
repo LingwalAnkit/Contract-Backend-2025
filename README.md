@@ -38,9 +38,9 @@ The `.env` file is already configured with your values:
 
 ```env
 # Blockchain Configuration
-RPC_URL=https://eth-sepolia.g.alchemy.com/v2/Afp0CJC6UrjBYd8Uvj-e3
-PRIVATE_KEY=0x4a387c541e2222b32405c368a0d8bbb75b2b01b0610d9051a5af0928909046ef
-CONTRACT_ADDRESS=0x856b4eaf7f0e3a00a1b378b7a833f68bf49cae7c
+RPC_URL=
+PRIVATE_KEY=
+CONTRACT_ADDRESS=
 
 # Server Configuration
 PORT=3000
